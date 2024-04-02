@@ -1,0 +1,55 @@
+body{
+    /*background-color: #55e97a;*/
+    margin: 0; 
+    padding: 0; 
+}
+
+ .CanchaTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.canchas {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.PieDeFoto {
+    display: none;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Considera el padding dentro del ancho */
+    font-size: 15px;
+
+}
+article:hover .PieDeFoto {
+    display: block; /* Mostrar el mensaje cuando se pasa el mouse sobre el artículo */
+}
+
+.canchas article {
+    margin: 10px;
+}
+
+.Confirmar {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    /*background-color: rgb(7, 7, 7);*/
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}

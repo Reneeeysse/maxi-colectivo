@@ -1,0 +1,73 @@
+body {
+    /*background-color: #7af36790;*/
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    /*background-color: #6DB96C; */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+#Inicio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 83vh;
+}
+
+#Inicio h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 150px;
+    max-width: 60%;
+}
+
+#Reservar {
+    width: 200px;
+
+}
+
+
+.transparent-button {
+    background-color: transparent;
+    border: 1px solid rgb(5, 5, 5);
+    color: rgb(10, 10, 10);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 100px;
+    
+}
+
+.transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.CanchaTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canchas {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.canchas article {
+    margin: 10px;
+}
+
+footer {
+    /*background-color: rgb(7, 7, 7);]*/
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
