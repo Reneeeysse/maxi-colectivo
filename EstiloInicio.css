@@ -2,6 +2,15 @@ body {
     /*background-color: #7af36790;*/
     margin: 0; 
     padding: 0; 
+    
+}
+.fondo{
+    
+        font-family: Arial, sans-serif;
+        background: url("/assets/ImagenFormulario.webp") no-repeat center fixed; 
+        background-size: cover;
+        margin: 0;
+        padding: 0;
 }
 
 header {
@@ -46,23 +55,119 @@ header {
 .transparent-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
-
 .CanchaTitulo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .canchas {
-    height: 100vh;
+    height: 88vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
+.PieDeFoto {
+    display: none;
+    color:black;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Considera el padding dentro del ancho */
+    font-size: 15px;
+
+}
+article:hover .PieDeFoto {
+    display: block; /* Mostrar el mensaje cuando se pasa el mouse sobre el artículo */
+}
+
 .canchas article {
     margin: 10px;
+}
+
+.Confirmar {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Establece la altura del contenedor al 100% del viewport height */
+}
+
+.dias {
+    display: flex;
+    flex-direction: row; /* Alinea los días en fila */
+    justify-content: space-around; /* Distribuye los días uniformemente en el contenedor */
+}
+
+.Hora {
+    display: flex;
+    flex-direction: column; /* Alinea los horarios en columna */
+    align-items: center; /* Centra horizontalmente los horarios */
+    margin: 10px; /* Agrega margen a los lados de cada día */
+}
+
+.horarios {
+    display: flex; /* Utiliza flexbox para los horarios */
+    flex-direction: column; /* Alinea los horarios en columna */
+    align-items: center; /* Centra horizontalmente los horarios */
+    margin: 35px; /* Agrega espacio entre los días y los horarios */
+}
+
+.horario {
+    margin: 10px; /* Agrega espacio entre los horarios */
+}
+.formulario {
+    max-width: 400px;
+    margin: 53px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
 footer {
